@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-   array.each_with_index do |i, name|
+   array.each_with_index do |name, i|
     place_number = (i+1).to_s
     puts "#{place_number}. #{name}"
   end  

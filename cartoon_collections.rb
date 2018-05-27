@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   new_arr = array.each_with_index do |i, name|
     place_number = (i+1).to_s
-    puts "#{place_number. #{name}"
+    puts "#{place_number}. #{name}"
   end  
   new_arr.join("\n")
 end

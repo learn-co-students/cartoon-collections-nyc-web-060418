@@ -1,9 +1,8 @@
 def roll_call_dwarves(array)
-  new_arr = array.each_with_index do |i, name|
+   array.each_with_index do |i, name|
     place_number = i+1.to_s
     puts "#{place_number}. #{name}"
   end  
-  new_arr.join("\n")
 end
 
 def summon_captain_planet# code an argument here

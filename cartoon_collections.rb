@@ -23,4 +23,5 @@ def find_the_cheese(array)
   cheese_string = ""
   
   
+  cheese_string
 end

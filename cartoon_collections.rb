@@ -25,8 +25,7 @@ def find_the_cheese(array)
     cheese_types.include? i
     if present
     cheese_present << i
-  else
+    end 
     nil
-  end 
   end 
 end

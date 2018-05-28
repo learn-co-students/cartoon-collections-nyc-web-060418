@@ -26,7 +26,7 @@ def find_the_cheese(array)
     if present
       cheese_present << i
     else
-      cheese_present << nil
+      cheese_present = nil
     end 
   end 
   cheese_present

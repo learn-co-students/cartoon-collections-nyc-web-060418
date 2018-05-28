@@ -6,8 +6,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  amended_arr = array.collect do |word|
-    word.first.upcase + "!"
+  amended_arr = array.collect do |x|
+    x.first.upcase + "!"
   end  
   amended_arr
 end

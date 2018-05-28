@@ -24,8 +24,10 @@ def find_the_cheese(array)
   present = array.any? do |i|
     cheese_types.include? i
     if present
-    cheese_present << i
+      cheese_present << i
+    else
+      cheese_present << nil
     end 
   end 
-  nil
+  cheese_present
 end
